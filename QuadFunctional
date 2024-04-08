@@ -1,0 +1,5 @@
+@FunctionalInterface
+public interface QuadFunctional<T,U,V,Q,R> {
+
+    R apply(T t, U u, V v, Q q);
+}
