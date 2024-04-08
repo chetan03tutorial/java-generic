@@ -1,0 +1,5 @@
+public interface OperationsRegistry {
+    void registerOperation(String action, IOperation operation);
+    IOperation getOperation(String action);
+
+}
